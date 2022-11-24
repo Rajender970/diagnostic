@@ -1,0 +1,52 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.header {
+  background-color: blue;
+  min-height: 100px;
+}
+.main {
+  background-color: yellow;
+  min-height: 250px;
+}
+.footer {
+  background-color: purple;
+  min-height: 50px;
+}
+.images {
+  display: flex;
+  column-gap: 10px;
+}
+.consult-doctor,
+.order-medicine,
+.diagno {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  column-gap: 10px;
+  margin-top: 15px;
+}
+.consult-doctor #doc-img,
+.order-medicine #order-img,
+.diagno #diagno-img {
+  width: 100px;
+  border-radius: 10px;
+}
+
+.social-media-icons {
+  width: 20vw;
+  border: 2px solid red;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  align-content: center;
+  column-gap: 5px;
+  color: white;
+}
+.images h3 {
+  font-size: 20px;
+  color: white;
+}
